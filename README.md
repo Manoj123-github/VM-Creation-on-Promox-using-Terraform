@@ -15,14 +15,15 @@ The Proxmox provider uses the Proxmox API. This provider exposes two resources: 
 
 Installation Steps: To install this provider, copy and paste this code into your Terraform configuration (include a version tag).
 
-terraform {
-required_providers {
-    proxmox = {
-        source = "telmate/proxmox"
-        version = "<version tag>"
-        }
-    }
-}
+
+            terraform {
+            required_providers {
+                proxmox = {
+                    source = "telmate/proxmox"
+                    version = "<version tag>"
+                    }
+                }
+            }
 
 
 
