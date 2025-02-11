@@ -26,6 +26,7 @@ required_providers {
 
 
 **Terraform Code**
+
 terraform {
   required_providers {
     proxmox = {
